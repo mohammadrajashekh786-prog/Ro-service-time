@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "RO Service Alert",
+    "slug": "ro-service-alert",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#CC0000",
+    "android": {
+      "package": "com.blueguard.roservicealert",
+      "versionCode": 1,
+      "permissions": [
+        "VIBRATE",
+        "CALL_PHONE",
+        "RECEIVE_BOOT_COMPLETED",
+        "FOREGROUND_SERVICE"
+      ],
+      "googleServicesFile": "./google-services.json"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#CC0000",
+          "sounds": ["./assets/alarm.wav"]
+        }
+      ]
+    ]
+  }
+}

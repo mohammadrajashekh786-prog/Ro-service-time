@@ -1,0 +1,28 @@
+{
+  "project_info": {
+    "project_number": "905214476596",
+    "project_id": "ro-service-time-e8ebd",
+    "storage_bucket": "ro-service-time-e8ebd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905214476596:android:ro-service-alert",
+        "android_client_info": {
+          "package_name": "com.blueguard.roservicealert"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWlep2Vjeo-KJSJ8nefEOCuZtmIifMZAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
