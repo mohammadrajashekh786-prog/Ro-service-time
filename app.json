@@ -5,26 +5,23 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "backgroundColor": "#CC0000",
+    "extra": {
+      "eas": {
+        "projectId": "0971e6c7-1e1d-407c-9908-f19b67905060"
+      }
+    },
     "android": {
       "package": "com.blueguard.roservicealert",
       "versionCode": 1,
       "permissions": [
         "VIBRATE",
         "CALL_PHONE",
-        "RECEIVE_BOOT_COMPLETED",
-        "FOREGROUND_SERVICE"
+        "RECEIVE_BOOT_COMPLETED"
       ],
       "googleServicesFile": "./google-services.json"
     },
     "plugins": [
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/icon.png",
-          "color": "#CC0000",
-          "sounds": ["./assets/alarm.wav"]
-        }
-      ]
+      "expo-notifications"
     ]
   }
 }
