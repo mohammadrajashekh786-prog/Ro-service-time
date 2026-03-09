@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "RO Service Alert",
-    "slug": "ro-service-app"
+    "slug": "ro-service-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "backgroundColor": "#CC0000",
