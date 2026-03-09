@@ -7,14 +7,15 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:905214476596:android:ro-service-alert",
+        "mobilesdk_app_id": "1:905214476596:android:f7a76d37f643474b84a561",
         "android_client_info": {
           "package_name": "com.blueguard.roservicealert"
         }
       },
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBWlep2Vjeo-KJSJ8nefEOCuZtmIifMZAA"
+          "current_key": "AIzaSyCEKSuiEjH3Fuoy4mXSrMjDyGNWe-FUcBc"
         }
       ],
       "services": {
