@@ -20,7 +20,13 @@
       "googleServicesFile": "./google-services.json"
     },
     "plugins": [
-      "expo-notifications"
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#CC0000"
+        }
+      ]
     ]
   }
 }
